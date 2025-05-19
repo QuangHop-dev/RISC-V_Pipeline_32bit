@@ -1,0 +1,54 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.770403",
+   "Default View_TopLeft":"77,301",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 threadsafe
+#  -string -flagsOSRD
+preplace port port-id_clk_100MHz -pg 1 -lvl 0 -x 0 -y 460 -defaultsOSRD
+preplace port port-id_reset_rtl_0 -pg 1 -lvl 0 -x 0 -y 550 -defaultsOSRD
+preplace port port-id_clk_100MHz_1 -pg 1 -lvl 0 -x 0 -y 650 -defaultsOSRD
+preplace port port-id_reset_rtl_0_0 -pg 1 -lvl 0 -x 0 -y 620 -defaultsOSRD
+preplace port port-id_clk_100MHz_2 -pg 1 -lvl 0 -x 0 -y 1160 -defaultsOSRD
+preplace port port-id_reset_rtl_0_0_1 -pg 1 -lvl 0 -x 0 -y 1130 -defaultsOSRD
+preplace port port-id_clk_100MHz_3 -pg 1 -lvl 0 -x 0 -y 290 -defaultsOSRD
+preplace port port-id_reset_rtl_0_0_1_2 -pg 1 -lvl 0 -x 0 -y 260 -defaultsOSRD
+preplace inst Hazard_Unit_0 -pg 1 -lvl 4 -x 1260 -y 860 -defaultsOSRD
+preplace inst Writeback_CC_0 -pg 1 -lvl 5 -x 1620 -y 280 -defaultsOSRD
+preplace inst Memory_Acess_CC_0 -pg 1 -lvl 4 -x 1260 -y 630 -defaultsOSRD
+preplace inst Execute_CC_0 -pg 1 -lvl 3 -x 890 -y 890 -defaultsOSRD
+preplace inst Instruction_Decode_CC_0 -pg 1 -lvl 2 -x 520 -y 740 -defaultsOSRD
+preplace inst Instruction_Fetch_CC_0 -pg 1 -lvl 1 -x 180 -y 1010 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 3 -x 890 -y 450 -defaultsOSRD
+preplace inst rst_clk_wiz_100M -pg 1 -lvl 4 -x 1260 -y 420 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 2 -x 520 -y 510 -defaultsOSRD
+preplace inst clk_wiz_2 -pg 1 -lvl 1 -x 180 -y 1150 -defaultsOSRD
+preplace inst rst_clk_wiz_2_100M -pg 1 -lvl 2 -x 520 -y 1000 -defaultsOSRD
+preplace inst clk_wiz_3 -pg 1 -lvl 4 -x 1260 -y 270 -defaultsOSRD
+preplace inst rst_clk_wiz_3_100M -pg 1 -lvl 5 -x 1620 -y 100 -defaultsOSRD
+preplace netloc clk_wiz_clk_out1 1 2 2 730 380 1050
+preplace netloc clk_wiz_locked 1 3 1 N 460
+preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 2 3 720 180 NJ 180 1430
+preplace netloc clk_wiz_1_clk_out1 1 1 2 350 440 690
+preplace netloc clk_wiz_2_clk_out1 1 0 2 40 1220 330
+preplace netloc clk_wiz_2_locked 1 1 1 340 1040n
+preplace netloc rst_clk_wiz_2_100M_peripheral_aresetn 1 0 3 20 1230 NJ 1230 690
+preplace netloc clk_wiz_3_clk_out1 1 3 2 1080 190 1440
+preplace netloc clk_wiz_3_locked 1 4 1 1450 140n
+preplace netloc rst_clk_wiz_3_100M_peripheral_aresetn 1 3 3 1090 200 NJ 200 1790
+preplace netloc clk_100MHz_1 1 0 3 20J 430 NJ 430 700J
+preplace netloc reset_rtl_0_1 1 0 5 NJ 550 320 420 710 370 1070 80 N
+preplace netloc clk_100MHz_1_1 1 0 2 40J 520 NJ
+preplace netloc reset_rtl_0_0_1 1 0 2 20J 500 NJ
+preplace netloc clk_100MHz_2_1 1 0 1 NJ 1160
+preplace netloc reset_rtl_0_0_1_1 1 0 1 30J 1130n
+preplace netloc clk_100MHz_3_1 1 0 4 20J 280 NJ 280 NJ 280 NJ
+preplace netloc reset_rtl_0_0_1_2_1 1 0 4 NJ 260 NJ 260 NJ 260 NJ
+levelinfo -pg 1 0 180 520 890 1260 1620 1810
+pagesize -pg 1 -db -bbox -sgen -160 0 1810 1250
+"
+}
+{
+   "da_board_cnt":"12",
+   "da_clkrst_cnt":"4"
+}

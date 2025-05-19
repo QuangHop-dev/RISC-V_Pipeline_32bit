@@ -1,0 +1,25 @@
+
+addi x1, x0, 5     
+addi x2, x0, 5     
+addi x3, x0, 15    
+addi x4, x0, 60    
+label:
+add x7, x1, x2     
+sub x8, x1, x2    
+mul x9, x1, x2     
+div x10, x1, x2    
+rem x11, x1, x2    
+or x12, x1, x2     
+sll x13, x1, x2	
+
+lw x14, 4(x3)    
+sw x4, 8(x3)
+beq x1, x2, tag
+end:
+addi x5, x0, -15  
+addi x6, x0, 255  
+tag:
+add x5, x3, x4
+sub x7, x5, x3
+j end
+ 
