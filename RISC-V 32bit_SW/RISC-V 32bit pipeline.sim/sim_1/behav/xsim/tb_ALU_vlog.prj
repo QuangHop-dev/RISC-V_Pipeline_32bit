@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RISC-V 32bit pipeline.srcs/sources_1/new/ALU.v" \
+"../../../../RISC-V 32bit pipeline.srcs/sources_1/new/Division.v" \
+"../../../../RISC-V 32bit pipeline.srcs/sim_1/new/tb_ALU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
