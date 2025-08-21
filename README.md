@@ -6,10 +6,8 @@
   - [Microarchitecture](#microarchitecture)
   - [Tools Used](#tools-used)
   - [Design Steps](#design-steps)
-  - [Critical Path](#critical-path)
   - [Hazard Handling](#hazard-handling)
   - [RTL View](#rtl-view)
-  - [References](#references)
 
 ---
 
